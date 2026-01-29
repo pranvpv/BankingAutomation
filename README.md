@@ -20,7 +20,7 @@ The system is designed, with a focus on automation, state management, and analyt
 
 ---
 
-## 📌 Ingestion State Management
+##  Ingestion State Management
 
 To support **incremental processing**, the pipeline uses an `ingestion_state` table.
 
