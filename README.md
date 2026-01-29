@@ -2,7 +2,8 @@
 
 ## Overview
 
-This repository contains an **automated batch data pipeline** built to ingest transactional data, process it incrementally, detect anomalies, and expose analytics through APIs and a dashboard.  
+This repository contains an **automated batch data pipeline** built to ingest transactional data, process it incrementally, detect anomalies, and expose analytics through APIs and a dashboard. 
+
 The system is designed, with a focus on automation, state management, and analytical data serving.
 
 ---
