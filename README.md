@@ -80,6 +80,7 @@ Load → Transform → Serve.
   - Detected anomalies
   - Latest ingestion run timestamp
 - Acts as a monitoring and analytics interface on top of the data pipeline.
+  (The Dashboard was made using Claude)
 
 ---
 
