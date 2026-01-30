@@ -10,10 +10,10 @@ from google.oauth2.service_account import Credentials
 import pandas as pd
 
 def run_daily_detection():
-    SERVICE_ACCOUNT_FILE = r"C:\Users\prana\OneDrive\Desktop\Banking END TO END\Json file\banking-kpi-monitor-7cfa514efa61.json"
+    SERVICE_ACCOUNT_FILE = r"*******************************************"
 
     SCOPES = [
-        "https://www.googleapis.com/auth/spreadsheets.readonly"
+        "**************************"
     ]
     
     credentials = Credentials.from_service_account_file(
@@ -23,7 +23,7 @@ def run_daily_detection():
     
     client = gspread.authorize(credentials)
     
-    SHEET_ID = "1Ym03wWGpTrsltTYB2Otwsx4dX-FJzZUf5CQFURgsUXg"
+    SHEET_ID = "****************************"
     sheet = client.open_by_key(SHEET_ID)
     
     worksheet = sheet.sheet1
@@ -37,9 +37,9 @@ def run_daily_detection():
     DB_CONFIG = {
     "host": "localhost",
     "port": 5432,
-    "dbname": "Banking_Last",
+    "dbname": "*************",
     "user": "postgres",
-    "password": "9895396678"
+    "password": "***************"
     }
 
     conn = psycopg2.connect(**DB_CONFIG)
@@ -170,3 +170,4 @@ def run_daily_detection():
     cur.close()
     conn.close()
     print("Daily detection complete")
+
